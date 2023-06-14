@@ -2,7 +2,7 @@ const { urlencoded } = require('express')
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/*"],
+  content: ["*"],
   theme: {
     colors: {
       'greyblue': '#374B5C',
